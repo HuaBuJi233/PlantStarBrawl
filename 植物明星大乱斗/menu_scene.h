@@ -22,9 +22,9 @@ public:
 		if (msg.message == WM_KEYDOWN)
 		{
 			scene_manager.switch_to(SceneManager::SceneType::GAME);
-		}	
+		}
 	}
-	void on_update()
+	void on_update(int delay)
 	{
 		std::cout << "#更新菜单界面#" << std::endl;
 	}

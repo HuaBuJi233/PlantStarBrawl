@@ -48,9 +48,9 @@ public:
 	{
 		current_scene->on_input(msg);
 	}
-	void on_update()
+	void on_update(int delay)
 	{
-		current_scene->on_update();
+		current_scene->on_update(delay);
 	}
 	void on_draw()
 	{

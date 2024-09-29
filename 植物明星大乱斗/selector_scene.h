@@ -24,7 +24,7 @@ public:
 			scene_manager.switch_to(SceneManager::SceneType::GAME);
 		}
 	}
-	void on_update()
+	void on_update(int delay)
 	{
 		std::cout << "#更新角色选择界面#" << std::endl;
 	}
